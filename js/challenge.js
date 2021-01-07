@@ -34,17 +34,6 @@ function likeNumber(){
   li.innerHTML = number;
 }
 
-function addComment(){
-  let ul = document.getElementById('comments')
-  let li = document.createElement('li');
-  li.appendChild(document.createTextNode(comment));
-  ul.appendChild(li);
-  li.innerHTML = document.getElementById('comment-input').value;
-  console.log(document.getElementById('comment-input').value)
-
-  //This didnt work :(
-}
-
 function startGame(){
   var i = setInterval(function(){
     if (paused === false){
