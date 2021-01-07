@@ -9,10 +9,11 @@ let pause = document.getElementById('pause');
 
 document.getElementById("submit").addEventListener("click", function(event){
   event.preventDefault();
-  var ul = document.getElementById('allComments');
-  var h3 = document.createElement('h3');
-  h3.appendChild(document.createTextNode(number));
-  ul.appendChild(h3);
+  console.log(document.getElementById('comment-input').value);
+  // var ul = document.getElementById('allComments');
+  // var h3 = document.createElement('h3');
+  // h3.appendChild(document.createTextNode(number));
+  // ul.appendChild(h3);
 });
 
 function subtractTimer(){
