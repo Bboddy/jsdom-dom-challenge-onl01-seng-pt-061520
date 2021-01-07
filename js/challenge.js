@@ -29,7 +29,6 @@ function addTimer() {
 
 function stopTimer(){
   paused = !paused;
-  alert(`Stopped Timer (${paused})`);
 }
 
 function likeNumber(){
