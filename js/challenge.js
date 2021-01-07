@@ -36,6 +36,7 @@ function addComment(){
   li.appendChild(document.createTextNode(comment));
   ul.appendChild(li);
   li.innerHTML = document.getElementById('comment-input').value;
+  console.log(document.getElementById('comment-input').value)
 }
 
 function startGame(){
