@@ -35,7 +35,7 @@ function addComment(){
   let li = document.createElement('li');
   li.appendChild(document.createTextNode(comment));
   ul.appendChild(li);
-  li.innerHTML = number;
+  li.innerHTML = document.getElementById('comment-input').value;
 }
 
 function startGame(){
