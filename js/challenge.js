@@ -11,9 +11,9 @@ document.getElementById("submit").addEventListener("click", function(event){
   event.preventDefault();
   comment = document.getElementById('comment-input').value;
   var ul = document.getElementById('allComments');
-  var h3 = document.createElement('h3');
-  h3.appendChild(document.createTextNode(comment));
-  ul.appendChild(h3);
+  var h4 = document.createElement('h4');
+  h4.appendChild(document.createTextNode(comment));
+  ul.appendChild(h4);
 });
 
 function subtractTimer(){
