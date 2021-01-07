@@ -37,7 +37,7 @@ function addComment(){
   ul.appendChild(li);
   li.innerHTML = document.getElementById('comment-input').value;
   console.log(document.getElementById('comment-input').value)
-  
+
   //This didnt work :(
 }
 
