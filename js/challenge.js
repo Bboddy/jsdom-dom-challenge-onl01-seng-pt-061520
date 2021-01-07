@@ -8,6 +8,12 @@ let heart = document.getElementById('heart');
 let pause = document.getElementById('pause');
 
 document.getElementById("submit").addEventListener("click", function(event){
+  let ul = document.getElementById('comments')
+  let li = document.createElement('li');
+  li.appendChild(document.createTextNode(comment));
+  ul.appendChild(li);
+  li.innerHTML = document.getElementById('comment-input').value;
+  console.log(document.getElementById('comment-input').value)
   event.preventDefault()
 });
 
