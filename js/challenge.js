@@ -12,9 +12,7 @@ document.getElementById("submit").addEventListener("click", function(event){
   var div = document.getElementById('comments')
   var h3 = document.createElement('h3');
   h3.appendChild(document.createTextNode(number));
-  div.appendChild(li);
-  h3.innerHTML = document.getElementById('comment-input').value;
-  console.log(document.getElementById('comment-input').value)
+  div.appendChild(h3);
 });
 
 function subtractTimer(){
@@ -36,7 +34,6 @@ function likeNumber(){
   var li = document.createElement('li');
   li.appendChild(document.createTextNode(number));
   ul.appendChild(li);
-  li.innerHTML = number;
 }
 
 function startGame(){
