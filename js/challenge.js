@@ -9,11 +9,11 @@ let pause = document.getElementById('pause');
 
 document.getElementById("submit").addEventListener("click", function(event){
   event.preventDefault()
-  var ul = document.getElementById('comments')
-  var li = document.createElement('li');
-  li.appendChild(document.createTextNode("comment"));
-  ul.appendChild(li);
-  li.innerHTML = document.getElementById('comment-input').value;
+  var div = document.getElementById('comments')
+  var h3 = document.createElement('h3');
+  h3.appendChild(document.createTextNode(number));
+  div.appendChild(li);
+  h3.innerHTML = document.getElementById('comment-input').value;
   console.log(document.getElementById('comment-input').value)
 });
 
