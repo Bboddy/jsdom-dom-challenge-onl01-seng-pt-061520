@@ -1,11 +1,11 @@
-var counter = document.getElementById('counter')
+let counter = document.getElementById('counter')
 let number = 0;
-var paused = false;
+let paused = false;
 
-var minus = document.getElementById('minus');
-var plus = document.getElementById('plus');
-var heart = document.getElementById('heart');
-var pause = document.getElementById('pause');
+let minus = document.getElementById('minus');
+let plus = document.getElementById('plus');
+let heart = document.getElementById('heart');
+let pause = document.getElementById('pause');
 
 function subtractTimer(){
   number--;
