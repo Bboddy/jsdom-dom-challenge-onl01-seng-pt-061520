@@ -9,10 +9,10 @@ let pause = document.getElementById('pause');
 
 document.getElementById("submit").addEventListener("click", function(event){
   event.preventDefault()
-  var div = document.getElementById('comments')
+  var ul = document.getElementById('comments')
   var h3 = document.createElement('h3');
   h3.appendChild(document.createTextNode(number));
-  div.appendChild(h3);
+  ul.appendChild(h3);
 });
 
 function subtractTimer(){
