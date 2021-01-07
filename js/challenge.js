@@ -9,8 +9,8 @@ let pause = document.getElementById('pause');
 
 document.getElementById("submit").addEventListener("click", function(event){
   event.preventDefault()
-  let ul = document.getElementById('comments')
-  let li = document.createElement('li');
+  var ul = document.getElementById('comments')
+  var li = document.createElement('li');
   li.appendChild(document.createTextNode("comment"));
   ul.appendChild(li);
   li.innerHTML = document.getElementById('comment-input').value;
