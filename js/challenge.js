@@ -33,8 +33,8 @@ function stopTimer(){
 }
 
 function likeNumber(){
-  let ul = document.getElementById('likes')
-  let li = document.createElement('li');
+  var ul = document.getElementById('likes')
+  var li = document.createElement('li');
   li.appendChild(document.createTextNode(number));
   ul.appendChild(li);
   li.innerHTML = number;
