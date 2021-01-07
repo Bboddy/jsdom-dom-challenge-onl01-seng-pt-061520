@@ -1,4 +1,4 @@
-let counter = document.getElementById('counter')
+let counter = document.getElementById('counter');
 let number = 0;
 let paused = false;
 
@@ -30,7 +30,7 @@ function stopTimer(){
 }
 
 function likeNumber(){
-  var ul = document.getElementById('likes')
+  var ul = document.getElementById('likes');
   var li = document.createElement('li');
   li.appendChild(document.createTextNode(number));
   ul.appendChild(li);
