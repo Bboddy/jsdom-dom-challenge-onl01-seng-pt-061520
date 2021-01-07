@@ -8,7 +8,7 @@ let heart = document.getElementById('heart');
 let pause = document.getElementById('pause');
 
 document.getElementById("submit").addEventListener("click", function(event){
-  event.preventDefault()
+  event.preventDefault();
   var ul = document.getElementById('allComments')
   var h3 = document.createElement('h3');
   h3.appendChild(document.createTextNode(number));
