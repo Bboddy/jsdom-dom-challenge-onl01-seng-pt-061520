@@ -7,6 +7,10 @@ let plus = document.getElementById('plus');
 let heart = document.getElementById('heart');
 let pause = document.getElementById('pause');
 
+document.getElementById("submit").addEventListener("click", function(event){
+  event.preventDefault()
+});
+
 function subtractTimer(){
   number--;
   counter.innerHTML = number;
