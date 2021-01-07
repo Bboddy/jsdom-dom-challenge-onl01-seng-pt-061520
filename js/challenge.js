@@ -28,7 +28,6 @@ function likeNumber(){
   li.appendChild(document.createTextNode(number));
   ul.appendChild(li);
   li.innerHTML = number;
-  console.log("poop")
 }
 
 function startGame(){
